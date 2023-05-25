@@ -1,7 +1,7 @@
 # Docker SFTP
 
 ## Description
-Very basic alpine container that provides SFTP through openssh-server  
+Very basic alpine container that provides SFTP using openssh-server  
 
 ## How to run
 
