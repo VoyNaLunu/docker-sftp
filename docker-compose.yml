@@ -1,0 +1,12 @@
+version: "2.4"
+
+services:
+  docker-sftp:
+    env_file:
+      - ./.env
+    build: ./build
+    image: docker-sftp:0.1
+    volumes:
+      - ./ftp:/srv/sftp
+    ports:
+      - 8022:8022
