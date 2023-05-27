@@ -1,5 +1,3 @@
-from alpine:3.18
-
 FROM alpine:3.18
 
 LABEL "maintainer"="https://github.com/VoyNaLunu"
